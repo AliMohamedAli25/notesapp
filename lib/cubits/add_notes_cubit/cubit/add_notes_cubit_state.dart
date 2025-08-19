@@ -9,4 +9,8 @@ final class AddNotesCubitloading extends AddNotesCubitState {}
 
 final class AddNotesCubitsucess extends AddNotesCubitState {}
 
-final class AddNotesCubitfailur extends AddNotesCubitState {}
+final class AddNotesCubitfailur extends AddNotesCubitState {
+  final String errmessage;
+
+  AddNotesCubitfailur({required this.errmessage});
+}
